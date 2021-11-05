@@ -2,6 +2,8 @@ header {
     display: flex;
     background-color: rgb(33, 58, 53);
     line-height: 25px;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h1 {
@@ -12,12 +14,18 @@ header h1 {
 }
 
 header nav {
-    float: right;
     padding-top: 20px;
 }
 
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 header nav ul li {
-    display: inline;
     font-size: 20px;
     margin: 0 30px;
 }
@@ -48,4 +56,12 @@ header nav ul li {
     .about {
         flex-wrap: wrap;
     }
+}
+
+@media screen and (max-width: 768px){
+    
+}
+
+@media screen and (max-width: 575px){
+    
 }
