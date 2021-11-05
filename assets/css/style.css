@@ -26,9 +26,13 @@ header nav ul li {
     width: 100%;
 }
 
-.about img {
-    flex: 0 35%;
-    height: 300px;
+.imgdiv {
+    flex: 0 0 35%;
+    max-width: 300px;
+}
+
+.imgdiv img {
+    width: 100%;
 }
 
 .about {
@@ -37,6 +41,11 @@ header nav ul li {
 }
 
 .about div {
-    display: inline-block;
-    margin: 10px 25px;
+    flex: 1 1 65%;
+}
+
+@media screen and (max-width: 650px){
+    .about {
+        flex-wrap: wrap;
+    }
 }
