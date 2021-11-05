@@ -1,33 +1,31 @@
 header {
     display: flex;
-    background-color: rgb(33, 58, 53);
-    line-height: 25px;
+    line-height: 300px;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-image: url(../images/wooded-trail.jpg);
 }
 
 header h1 {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30px;
+    align-items: flex-start;
     font-size: 35px;
 }
 
 header nav {
-    padding-top: 20px;
 }
 
 header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     list-style: none;
 }
 
 header nav ul li {
     font-size: 20px;
-    margin: 0 30px;
 }
 
 .hero img {
