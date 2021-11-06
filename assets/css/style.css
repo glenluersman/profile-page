@@ -44,13 +44,6 @@ h2 {
     text-align: center;
 }
 
-#about {
-    color: #ffe02a;
-}
-
-.hero img {
-    width: 100%;
-}
 
 .imgdiv {
     flex: 0 0 35%;
@@ -68,6 +61,8 @@ h2 {
 
 .about div {
     flex: 1 1 65%;
+    font-size: 20px;
+    margin: 75px;
 }
 
 @media screen and (max-width: 650px){
