@@ -2,13 +2,6 @@
     background-color: #87643e;
 }
 
-div img {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -44,6 +37,12 @@ h2 {
     text-align: center;
 }
 
+div .imgdiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
 
 .imgdiv {
     flex: 0 0 35%;
@@ -56,7 +55,7 @@ h2 {
 
 .about {
     display: flex;
-    text-align: left;
+    text-align: center;
 }
 
 .about div {
@@ -65,16 +64,63 @@ h2 {
     margin: 75px;
 }
 
+.work-link {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 30%;
+    border: 1px solid #2d5500;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #2d5500;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    margin: 5px auto 15px auto;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    background-color: rgba(255, 255, 255, 1);
+    outline: none;
+}
+
+.contact-form button {
+    border: none;
+    background: #fea201;
+    color: #2d5500;
+    width: 15%;
+    padding: 15px 0;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: #ff6e4e;
+    background: #ffe02a;
+}
+
+.resume {
+    text-align: center;
+}
+
+
+
 @media screen and (max-width: 650px){
     .about {
         flex-wrap: wrap;
     }
-}
-
-@media screen and (max-width: 768px){
-    
-}
-
-@media screen and (max-width: 575px){
-    
 }
