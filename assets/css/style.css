@@ -2,6 +2,11 @@
     background-color: #87643e;
 }
 
+.stream img {
+    max-height: 600px;
+    width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -68,7 +73,32 @@ div .imgdiv {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: relative;
     text-align: center;
+}
+
+.run-buddy {
+    display: flex;
+    position: absolute;
+    margin-right: 300px;
+    font-size: 25px;
+    z-index: 1;
+}
+
+.horiseon {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    margin-right: 200px;
+    z-index: 1;
+}
+
+.portfolio {
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    margin-right: 200px;
+    z-index: 1;
 }
 
 .contact {
@@ -112,12 +142,6 @@ form {
     color: #ff6e4e;
     background: #ffe02a;
 }
-
-.resume {
-    text-align: center;
-}
-
-
 
 @media screen and (max-width: 650px){
     .about {
