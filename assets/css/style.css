@@ -1,153 +1,144 @@
 * {
-    background-color: #87643e;
+  background-color: #87643e;
 }
 
 .stream img {
-    max-height: 600px;
-    width: 100%;
+  max-height: 600px;
+  width: 100%;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: baseline;
-    background-color: #87643e;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: #87643e;
 }
 
 header h1 {
-    display: inline;
-    font-size: 55px;
-    color: #fea201;
-    margin-left: 25px;
+  display: inline;
+  font-size: 55px;
+  color: #fea201;
+  margin-left: 25px;
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 
 header nav ul li {
-    padding: 0 15px;
-    font-size: 30px;
+  padding: 0 15px;
+  font-size: 30px;
 }
 
 h2 {
-    color: #fea201;
-    font-size: 45px;
-    text-align: center;
+  color: #fea201;
+  font-size: 45px;
+  text-align: center;
 }
 
 div .imgdiv {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
 }
 
 .imgdiv {
-    flex: 0 0 35%;
-    max-width: 300px;
+  flex: 0 0 35%;
+  max-width: 300px;
 }
 
 .imgdiv img {
-    width: 100%;
+  width: 100%;
 }
 
 .about {
-    display: flex;
-    text-align: center;
+  display: flex;
+  text-align: center;
 }
 
 .about div {
-    flex: 1 1 65%;
-    font-size: 20px;
-    margin: 75px;
+  flex: 1 1 65%;
+  font-size: 20px;
+  margin: 75px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .work-link {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    position: relative;
-    text-align: center;
+  justify-content: center;
+  position: relative;
+  text-align: center;
 }
 
 .run-buddy {
-    display: flex;
-    position: absolute;
-    margin-right: 300px;
-    font-size: 25px;
-    z-index: 1;
-    background-color: #fea201;
-}
-
-.horiseon {
-    display: flex;
-    position: absolute;
-    font-size: 20px;
-    margin-right: 200px;
-    z-index: 1;
-    background-color: #fea201;
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 8px;
+  font-size: 25px;
+  z-index: 1;
+  background-color: #e3f118b2;
 }
 
 .portfolio {
-    display: flex;
-    position: absolute;
-    font-size: 20px;
-    margin-right: 200px;
-    z-index: 1;
-    background-color: #fea201;
+  position: absolute;
+  font-size: 20px;
+  margin-left: 8px;
+  margin-top: 8px;
+  z-index: 1;
+  background-color: #e3f118b2;
 }
 
 .contact {
-    text-align: center;
-    padding-bottom: 30px;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
 form {
-    text-align: center;
+  text-align: center;
 }
 
-.contact-form input, .contact-form textarea {
-    width: 30%;
-    border: 1px solid #2d5500;
-    display: block;
-    padding: 7px 15px;
-    font-size: 16px;
-    color: #2d5500;
-    margin-bottom: 15px;
-    margin-top: 5px;
-    margin: 5px auto 15px auto;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.75);
+.contact-form input,
+.contact-form textarea {
+  width: 30%;
+  border: 1px solid #2d5500;
+  display: block;
+  padding: 7px 15px;
+  font-size: 16px;
+  color: #2d5500;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  margin: 5px auto 15px auto;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 
-.contact-form input:focus, .contact-form textarea:focus {
-    background-color: rgba(255, 255, 255, 1);
-    outline: none;
+.contact-form input:focus,
+.contact-form textarea:focus {
+  background-color: rgba(255, 255, 255, 1);
+  outline: none;
 }
 
 .contact-form button {
-    border: none;
-    background: #fea201;
-    color: #2d5500;
-    width: 15%;
-    padding: 15px 0;
-    font-size: 16px;
-    border-radius: 10px;
+  border: none;
+  background: #fea201;
+  color: #2d5500;
+  width: 15%;
+  padding: 15px 0;
+  font-size: 16px;
+  border-radius: 10px;
 }
 
 .contact-form button:hover {
-    color: #ff6e4e;
-    background: #ffe02a;
-}
-
-@media screen and (max-width: 650px){
-    .about {
-        flex-wrap: wrap;
-    }
+  color: #ff6e4e;
+  background: #ffe02a;
 }
