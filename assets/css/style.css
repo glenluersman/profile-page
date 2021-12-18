@@ -18,7 +18,7 @@ header {
 header h1 {
   display: inline;
   font-size: 55px;
-  color: #fea201;
+  color: black;
   margin-left: 25px;
 }
 
@@ -36,7 +36,7 @@ header nav ul li {
 }
 
 h2 {
-  color: #fea201;
+  color: black;
   font-size: 45px;
   text-align: center;
 }
@@ -85,17 +85,19 @@ div .imgdiv {
   margin-left: 8px;
   margin-top: 8px;
   font-size: 25px;
+  color: white;
   z-index: 1;
-  background-color: #e3f118b2;
+  background-color: black;
 }
 
 .portfolio {
   position: absolute;
   font-size: 20px;
+  color: white;
   margin-left: 8px;
   margin-top: 8px;
   z-index: 1;
-  background-color: #e3f118b2;
+  background-color: black;
 }
 
 .contact {
@@ -110,11 +112,11 @@ form {
 .contact-form input,
 .contact-form textarea {
   width: 30%;
-  border: 1px solid #2d5500;
+  border: 1px solid black;
   display: block;
   padding: 7px 15px;
   font-size: 16px;
-  color: #2d5500;
+  color: black;
   margin-bottom: 15px;
   margin-top: 5px;
   margin: 5px auto 15px auto;
@@ -130,8 +132,8 @@ form {
 
 .contact-form button {
   border: none;
-  background: #fea201;
-  color: #2d5500;
+  background: rgba(2, 2, 253, 0.657);
+  color: white;
   width: 15%;
   padding: 15px 0;
   font-size: 16px;
@@ -139,6 +141,6 @@ form {
 }
 
 .contact-form button:hover {
-  color: #ff6e4e;
+  color: black;
   background: #ffe02a;
 }
