@@ -43,6 +43,8 @@ The purpose of the webpage is to present myself and my work to potential employe
 
 ## <img id="screenshots" src="https://github.com/teamjuli0/readme-badges/blob/main/themes/clean-dark/menu-categories/screenshots.png?raw=true" style="height: 40px">
 
+Deployed at: https://glenluersman.github.io/profile-page/
+
 <img style="margin: 0 0 15px 0" src="./assets/images/profile1.PNG" ></a>
 
 <img style="margin: 0 0 15px 0" src="./assets/images/profile2.PNG" ></a>
