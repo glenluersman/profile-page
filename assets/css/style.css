@@ -1,10 +1,5 @@
 * {
-  background-color: #87643e;
-}
-
-.stream img {
-  max-height: 600px;
-  width: 100%;
+  background-color: #fff;
 }
 
 header {
@@ -12,7 +7,7 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
-  background-color: #87643e;
+  background-color: #5e5a55;
 }
 
 header h1 {
@@ -20,6 +15,7 @@ header h1 {
   font-size: 55px;
   color: black;
   margin-left: 25px;
+  background-color: #5e5a55;
 }
 
 header nav ul {
@@ -28,11 +24,24 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  background-color: #5e5a55;
 }
 
 header nav ul li {
   padding: 0 15px;
   font-size: 30px;
+  color: black;
+  background-color: #5e5a55;
+}
+
+nav {
+  background-color: #5e5a55;
+}
+
+nav a {
+  background-color: #5e5a55;
+  color: black;
+  text-decoration: none;
 }
 
 h2 {
@@ -121,18 +130,18 @@ form {
   margin-top: 5px;
   margin: 5px auto 15px auto;
   border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: #fff;
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(185, 178, 178);
   outline: none;
 }
 
 .contact-form button {
   border: none;
-  background: rgba(2, 2, 253, 0.657);
+  background: #5e5a55;
   color: white;
   width: 15%;
   padding: 15px 0;
@@ -141,6 +150,6 @@ form {
 }
 
 .contact-form button:hover {
-  color: black;
-  background: #ffe02a;
+  color: white;
+  background: #333230;
 }
