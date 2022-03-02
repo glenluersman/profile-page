@@ -11,7 +11,6 @@ header {
 }
 
 header h1 {
-  display: inline;
   font-size: 55px;
   color: black;
   margin-left: 25px;
@@ -28,7 +27,7 @@ header nav ul {
 }
 
 header nav ul li {
-  padding: 0 15px;
+  margin: 0 15px;
   font-size: 30px;
   color: black;
   background-color: #5e5a55;
@@ -58,7 +57,6 @@ div .imgdiv {
 }
 
 .imgdiv {
-  flex: 0 0 35%;
   max-width: 300px;
 }
 
@@ -72,7 +70,6 @@ div .imgdiv {
 }
 
 .about div {
-  flex: 1 1 65%;
   font-size: 20px;
   margin: 75px;
 }
@@ -152,4 +149,39 @@ form {
 .contact-form button:hover {
   color: white;
   background: #333230;
+}
+
+@media screen and (max-width: 480px) {
+  header nav ul {
+    justify-content: center;
+  }
+
+  header h1 {
+    text-align: center;
+  }
+  
+  .about {
+    flex-direction: column;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 75%;
+  }
+
+  .contact-form button {
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 55%;
+  }
+
+  .contact-form button {
+    width: 30%;
+  }
 }
