@@ -153,7 +153,7 @@ form {
 
 @media screen and (max-width: 480px) {
   header {
-    justify-content: center !mportant;
+    justify-content: center;
   }
 
   header h1 {
