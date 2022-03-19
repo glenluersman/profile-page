@@ -111,6 +111,15 @@ div .imgdiv {
   padding-bottom: 30px;
 }
 
+.res {
+  text-align: center;
+}
+
+.res embed {
+  width: 640px;
+  height: 830px;
+}
+
 form {
   text-align: center;
 }
