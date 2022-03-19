@@ -161,7 +161,7 @@ form {
 }
 
 @media screen and (max-width: 480px) {
-  header nav ul {
+  header {
     justify-content: center;
   }
 
